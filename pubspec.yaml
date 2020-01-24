@@ -1,0 +1,49 @@
+name: Motivo
+description: A project that tracks your self-assigned goals.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  contacts_service: ^0.3.10
+  permission_handler: ^4.2.0
+  http: ^0.12.0+2
+  shared_preferences: ^0.5.6
+  flutter_sms: ^1.1.0
+  json_annotation: ^3.0.1
+  provider: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^1.7.2
+  json_serializable: ^3.2.5
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/no-results.png
+
+  fonts:
+   - family: "Roboto-Bold"
+     fonts:
+       - asset: fonts/Roboto-Bold.ttf
+         weight: 700
+        
+   - family: "Roboto-Medium"
+     fonts:
+       - asset: fonts/Roboto-Medium.ttf
+
+   - family: "Poppins"
+     fonts:
+       - asset: "fonts/Poppins-Bold.ttf"
+         weight: 700
+       - asset: "fonts/Poppins-Medium.ttf"
